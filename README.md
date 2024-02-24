@@ -21,6 +21,7 @@ F = m * a, maka gaya newton yang diapplied lebih besar, sedangkan percepatan tet
 Tidak ada collision yang terjadi, sehingga pesawat jatuh melewati platform.
 
 8. Pada scene MainLevel, coba manipulasi atribut Position, Rotation, dan Scale milik node BlueShip secara bebas. Apa yang terjadi pada visualisasi BlueShip di Viewport?
-
+Icon Blueship menjadi besar sesuai dengan scale, berubah rotasi sesuai dengan rotation, dan posisi pada viewport dan gamenya berubah sesuai dengan position
 
 9. Pada scene MainLevel, perhatikan nilai atribut Position node PlatformBlue, StonePlatform, dan StonePlatform2. Mengapa nilai Position node StonePlatform dan StonePlatform2 tidak sesuai dengan posisinya di dalam scene (menurut Inspector) namun visualisasinya berada di posisi yang tepat?
+Posisi child nodenya mengikuti poisis relatif parent nodenya sehingga, posisi parentnya sudah benar posisi child nodenya dimulai dari x dan y dari parent node tersebut
